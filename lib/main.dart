@@ -243,7 +243,7 @@ class ResearchTab extends StatelessWidget {
         const Text('WHAT IS REAL', style: TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: g500, letterSpacing: 1)),
         b('USCIS: the employee completes Form I-9 Section 1 no later than the first day of employment. That is why day one lists identity and work-authorization documents.'),
         b('Credential rules differ by place. Federal OSHA does not require the 10- or 30-hour card, but some states and projects do (Nevada law; Rhode Island for state and municipal projects of \$100,000 or more). The postings here are fictional, so the app only checks whether you hold a card, not whether a job legally needs it.'),
-        b('The PDF is a real file made in your browser.'),
+        b('Save as PDF builds the summary as a PDF in your browser and opens the print dialog. I could not test the dialog end to end, so treat it as untested.'),
         const SizedBox(height: 8),
         const Text('WHAT IS SIMULATED OR MADE UP', style: TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: g500, letterSpacing: 1)),
         b('Marcus, his credentials, jobs, references, dates and the three postings are fictional. The date is fixed at 19 Oct 2026 so expiry flags look the same every time.'),
