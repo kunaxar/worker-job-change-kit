@@ -76,7 +76,7 @@ class _ShellState extends State<Shell> {
   int tab = 0;
   @override
   Widget build(BuildContext context) => Scaffold(
-        body: SafeArea(child: Column(children: [demoBanner(), Expanded(child: ListenableBuilder(listenable: app, builder: (c, _) => [const ReadyTab(), const SummaryTab(), const DayOneTab(), const ResearchTab()][tab]))])),
+        body: SafeArea(child: Column(children: [demoBanner(), Expanded(child: ListenableBuilder(listenable: app, builder: (c, _) => [ReadyTab(), SummaryTab(), DayOneTab(), ResearchTab()][tab]))])),
         bottomNavigationBar: NavigationBar(
           selectedIndex: tab, onDestinationSelected: (i) => setState(() => tab = i), backgroundColor: Colors.white, indicatorColor: Colors.transparent, height: 64,
           destinations: const [
